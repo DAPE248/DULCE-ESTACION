@@ -1,0 +1,4 @@
+Proyecto: Dulce Estación
+Sistema de control de versiones: Git
+Repositorio remoto: GitHub
+Evidencia: GA7-220501096-AA1-EV03
