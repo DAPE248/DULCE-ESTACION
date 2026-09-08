@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ventas - Dulce Estación</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+<div class="row">
+
+<aside class="col-md-2 bg-primary text-white vh-100 p-4">
+
+<h3 class="text-center mb-4">🍬 Dulce Estación</h3>
+
+<hr>
+
+<ul class="nav flex-column">
+
+<li class="nav-item mb-2"><a href="dashboard.html" class="nav-link text-white">🏠 Dashboard</a></li>
+
+<li class="nav-item mb-2"><a href="productos.html" class="nav-link text-white">📦 Productos</a></li>
+
+<li class="nav-item mb-2"><a href="clientes.html" class="nav-link text-white">👥 Clientes</a></li>
+
+<li class="nav-item mb-2"><a href="proveedores.html" class="nav-link text-white">🚚 Proveedores</a></li>
+
+<li class="nav-item mb-2"><a href="compras.html" class="nav-link text-white">🛒 Compras</a></li>
+
+<li class="nav-item mb-2"><a href="ventas.html" class="nav-link text-warning fw-bold">💰 Ventas</a></li>
+
+<li class="nav-item mb-2"><a href="inventario.html" class="nav-link text-white">📋 Inventario</a></li>
+
+<li class="nav-item mb-2"><a href="reportes.html" class="nav-link text-white">📊 Reportes</a></li>
+
+<li class="nav-item"><a href="configuracion.html" class="nav-link text-white">⚙ Configuración</a></li>
+
+</ul>
+
+</aside>
+
+<main class="col-md-10 p-4">
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+
+<div>
+
+<h2 class="fw-bold">Gestión de Ventas</h2>
+
+<p class="text-muted">
+Consulte y registre las ventas realizadas.
+</p>
+
+</div>
+
+<button class="btn btn-primary">
++ Nueva Venta
+</button>
+
+</div>
+
+<div class="card shadow border-0">
+
+<div class="card-body">
+
+<div class="row mb-3">
+
+<div class="col-md-4">
+
+<input type="text" class="form-control" placeholder="Buscar venta...">
+
+</div>
+
+</div>
+
+<table class="table table-hover">
+
+<thead class="table-primary">
+
+<tr>
+
+<th>Factura</th>
+<th>Cliente</th>
+<th>Fecha</th>
+<th>Total</th>
+<th>Estado</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>FV001</td>
+<td>Juan Pérez</td>
+<td>02/07/2026</td>
+<td>$45.000</td>
+<td><span class="badge bg-success">Pagada</span></td>
+</tr>
+
+<tr>
+<td>FV002</td>
+<td>María Gómez</td>
+<td>02/07/2026</td>
+<td>$78.000</td>
+<td><span class="badge bg-success">Pagada</span></td>
+</tr>
+
+<tr>
+<td>FV003</td>
+<td>Carlos López</td>
+<td>02/07/2026</td>
+<td>$30.000</td>
+<td><span class="badge bg-warning text-dark">Pendiente</span></td>
+</tr>
+
+<tr>
+<td>FV004</td>
+<td>Ana Rodríguez</td>
+<td>01/07/2026</td>
+<td>$62.000</td>
+<td><span class="badge bg-success">Pagada</span></td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+</main>
+
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
